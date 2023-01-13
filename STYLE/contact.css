@@ -1,0 +1,2279 @@
+:root {
+	--web-view-ids: contact,iPad_Air__5,hp_c;
+	--web-view-name: contact;
+	--web-view-id: contact;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: false;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#contact,
+#iPad_Air__5,
+#hp_c {
+	display: none;
+}
+@media (min-width: 1366px) {
+	.mediaViewInfo {
+		--web-view-name: contact;
+		--web-view-id: contact;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#contact {
+		position: absolute;
+		display: block;
+		width: 1366px;
+		height: 768px;
+		background-color: rgba(0,0,0,1);
+		overflow: hidden;
+		--web-view-name: contact;
+		--web-view-id: contact;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Group_252 {
+		position: absolute;
+		width: 249.339px;
+		height: 23.905px;
+		left: 544px;
+		top: 574.147px;
+		overflow: visible;
+	}
+	#Group_247 {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 36.147px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_247 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_247:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_247:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_simple-instagram {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_simple-instagram {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_simple-instagram_ {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_simple-instagram_ {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_249 {
+		position: absolute;
+		width: 31.934px;
+		height: 20.02px;
+		left: 108.819px;
+		top: 1.912px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_249 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_249:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_249:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-behance {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-behance {
+		overflow: visible;
+		position: absolute;
+		width: 31.934px;
+		height: 20.02px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-behance_ {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-behance_ {
+		overflow: visible;
+		position: absolute;
+		width: 31.934px;
+		height: 20.02px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_246 {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_246 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_246:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_246:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-whatsapp {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-whatsapp {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-whatsapp_ {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-whatsapp_ {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_251 {
+		position: absolute;
+		width: 23.905px;
+		height: 16.137px;
+		left: 225.434px;
+		top: 3.825px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_251 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_251:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_251:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_zocial-email {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_zocial-email {
+		overflow: visible;
+		position: absolute;
+		width: 23.906px;
+		height: 16.137px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_zocial-email_bb {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_zocial-email_bb {
+		overflow: visible;
+		position: absolute;
+		width: 23.906px;
+		height: 16.137px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_248 {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 72.482px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_248 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_248:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_248:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-dribbble {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-dribbble {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-dribbble_be {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-dribbble_be {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_250 {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 152.994px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_250 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_250:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_250:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-pinterest {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-pinterest {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-pinterest_bh {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-pinterest_bh {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_273 {
+		position: absolute;
+		width: 24.051px;
+		height: 23.905px;
+		left: 189.141px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_273 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_273:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_273:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_simple-facebook {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_simple-facebook {
+		overflow: visible;
+		position: absolute;
+		width: 24.051px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_simple-facebook_bk {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_simple-facebook_bk {
+		overflow: visible;
+		position: absolute;
+		width: 24.051px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#HOME:hover {
+		font-weight: bold;
+	}
+	#HOME {
+		left: 777px;
+		top: 36px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#ABOUT_ME:hover {
+		width: 70px;
+		font-weight: bold;
+	}
+	#ABOUT_ME {
+		left: 892px;
+		top: 36px;
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#Group_236 {
+		position: absolute;
+		width: 63px;
+		height: 31px;
+		left: 639px;
+		top: 29px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */	#Group_236 > :not(:nth-child(2)) {	     display: none;transition: all .3s ease-out;	}	/* hover state - hide all but hover */	#Group_236:hover > :not(:nth-child(1)) {	     display: none;transition: all .3s ease-out;	}	#Group_236:hover > :nth-child(1) {	     display: revert;	}
+	#Group_229 {
+		position: absolute;
+		width: 63px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_498 {
+		fill: rgba(18,32,35,1);
+	}
+	.Rectangle_498 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_feather-shopping-cart {
+		position: absolute;
+		width: 15.308px;
+		height: 14.677px;
+		left: 23.553px;
+		top: 7.683px;
+		overflow: visible;
+	}
+	#Path_177 {
+		fill: rgba(225,255,1,1);
+	}
+	.Path_177 {
+		overflow: visible;
+		position: absolute;
+		width: 2.685px;
+		height: 2.685px;
+		left: 4.418px;
+		top: 11.992px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_178 {
+		fill: rgba(225,255,1,1);
+	}
+	.Path_178 {
+		overflow: visible;
+		position: absolute;
+		width: 2.685px;
+		height: 2.685px;
+		left: 11.361px;
+		top: 11.992px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_179 {
+		fill: rgba(225,255,1,1);
+	}
+	.Path_179 {
+		overflow: visible;
+		position: absolute;
+		width: 15.309px;
+		height: 10.89px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_228 {
+		position: absolute;
+		width: 63px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_498_bx {
+		fill: rgba(225,255,1,1);
+	}
+	.Rectangle_498_bx {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_feather-shopping-cart_by {
+		position: absolute;
+		width: 15.308px;
+		height: 14.677px;
+		left: 23.553px;
+		top: 7.683px;
+		overflow: visible;
+	}
+	#Path_177_bz {
+		fill: rgba(18,32,35,1);
+	}
+	.Path_177_bz {
+		overflow: visible;
+		position: absolute;
+		width: 2.685px;
+		height: 2.685px;
+		left: 4.418px;
+		top: 11.992px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_178_b {
+		fill: rgba(18,32,35,1);
+	}
+	.Path_178_b {
+		overflow: visible;
+		position: absolute;
+		width: 2.685px;
+		height: 2.685px;
+		left: 11.361px;
+		top: 11.992px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_179_b {
+		fill: rgba(18,32,35,1);
+	}
+	.Path_179_b {
+		overflow: visible;
+		position: absolute;
+		width: 15.309px;
+		height: 10.89px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#CONTACT:hover {
+		width: 59px;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	#CONTACT {
+		left: 1202px;
+		top: 36px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#PORTOFOLIO:hover {
+		width: 87px;
+		font-weight: bold;
+	}
+	#PORTOFOLIO {
+		left: 1039px;
+		top: 36px;
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#Group_242 {
+		position: absolute;
+		width: 335px;
+		height: 93px;
+		left: 544px;
+		top: 622.094px;
+		overflow: visible;
+	}
+	#Im_INMCO_thank_you_very_much_f {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 93px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_243 {
+		position: absolute;
+		width: 335px;
+		height: 98px;
+		left: 993.5px;
+		top: 622px;
+		overflow: visible;
+	}
+	#Group_241 {
+		position: absolute;
+		width: 335px;
+		height: 16px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Portofolio_INMCO____2023 {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 16px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 13px;
+		color: rgba(225,255,1,1);
+	}
+	#Group_243_cb {
+		position: absolute;
+		width: 335px;
+		height: 16px;
+		left: 0px;
+		top: 28px;
+		overflow: visible;
+	}
+	#Design__Mas_Omex {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 16px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_244 {
+		position: absolute;
+		width: 335px;
+		height: 16px;
+		left: 0px;
+		top: 55px;
+		overflow: visible;
+	}
+	#Kamu_akan_hebat_di_tempat_yang {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 16px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_245 {
+		position: absolute;
+		width: 335px;
+		height: 15px;
+		left: 0px;
+		top: 83px;
+		overflow: visible;
+	}
+	#All_Of_The_Designs_Here_Have_C {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 336px;
+		height: 15px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_226 {
+		position: absolute;
+		width: 496.5px;
+		height: 312.2px;
+		left: 105.5px;
+		top: 189.697px;
+		overflow: visible;
+	}
+	#Path_174 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_174 {
+		overflow: visible;
+		position: absolute;
+		width: 496.5px;
+		height: 312.2px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-star-of-life {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-star-of-life {
+		overflow: visible;
+		position: absolute;
+		width: 115.101px;
+		height: 122.776px;
+		left: 357.066px;
+		top: 160.455px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#CONTACT_ME {
+		left: 544px;
+		top: 534.106px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+}
+@media (min-width: 820px) and (max-width: 1365px) {
+	.mediaViewInfo {
+		--web-view-name: iPad Air – 5;
+		--web-view-id: iPad_Air__5;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#iPad_Air__5 {
+		position: absolute;
+		display: block;
+		width: 820px;
+		height: 461px;
+		background-color: rgba(0,0,0,1);
+		overflow: hidden;
+		--web-view-name: iPad Air – 5;
+		--web-view-id: iPad_Air__5;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Group_266 {
+		position: absolute;
+		width: 298.029px;
+		height: 187.401px;
+		left: 63.327px;
+		top: 113.868px;
+		overflow: visible;
+		body: ;
+	}
+	#Path_174_co {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_174_co {
+		overflow: visible;
+		position: absolute;
+		width: 298.029px;
+		height: 187.401px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-star-of-life_cp {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-star-of-life_cp {
+		overflow: visible;
+		position: absolute;
+		width: 69.091px;
+		height: 73.697px;
+		left: 214.333px;
+		top: 96.315px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_268 {
+		position: absolute;
+		width: 201px;
+		height: 60px;
+		left: 326.542px;
+		top: 373.418px;
+		overflow: visible;
+	}
+	#Im_INMCO_thank_you_very_much_f_cr {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		height: 60px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_270 {
+		position: absolute;
+		width: 201px;
+		height: 58px;
+		left: 596.359px;
+		top: 358px;
+		overflow: visible;
+	}
+	#Group_241_ct {
+		position: absolute;
+		width: 201px;
+		height: 10px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Portofolio_INMCO____2023_cu {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		height: 10px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 8px;
+		color: rgba(225,255,1,1);
+	}
+	#Group_243_cv {
+		position: absolute;
+		width: 201px;
+		height: 10px;
+		left: 0px;
+		top: 16px;
+		overflow: visible;
+	}
+	#Design__Mas_Omex_cw {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		height: 10px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_244_cx {
+		position: absolute;
+		width: 201px;
+		height: 10px;
+		left: 0px;
+		top: 32px;
+		overflow: visible;
+	}
+	#Kamu_akan_hebat_di_tempat_yang_cy {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		height: 10px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_245_cz {
+		position: absolute;
+		width: 201px;
+		height: 10px;
+		left: 0px;
+		top: 48px;
+		overflow: visible;
+	}
+	#All_Of_The_Designs_Here_Have_C_c {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		height: 10px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#CONTACT_ME_c {
+		left: 326.542px;
+		top: 319.603px;
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		white-space: nowrap;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 8px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_274 {
+		position: absolute;
+		width: 152.695px;
+		height: 14.64px;
+		left: 326.538px;
+		top: 344.348px;
+		overflow: visible;
+	}
+	#Group_247_c {
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 22.136px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_247_c > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_247_c:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_247_c:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_simple-instagram_c {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_simple-instagram_c {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_simple-instagram_da {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_simple-instagram_da {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_249_c {
+		position: absolute;
+		width: 19.556px;
+		height: 12.26px;
+		left: 66.641px;
+		top: 1.171px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_249_c > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_249_c:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_249_c:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-behance_c {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-behance_c {
+		overflow: visible;
+		position: absolute;
+		width: 19.556px;
+		height: 12.26px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-behance_da {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-behance_da {
+		overflow: visible;
+		position: absolute;
+		width: 19.556px;
+		height: 12.26px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_246_c {
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_246_c > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_246_c:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_246_c:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-whatsapp_da {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-whatsapp_da {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-whatsapp_db {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-whatsapp_db {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_251_dc {
+		position: absolute;
+		width: 14.64px;
+		height: 9.882px;
+		left: 138.055px;
+		top: 2.342px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_251_dc > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_251_dc:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_251_dc:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_zocial-email_dd {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_zocial-email_dd {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 9.882px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_zocial-email_de {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_zocial-email_de {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 9.882px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_248_df {
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 44.388px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_248_df > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_248_df:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_248_df:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-dribbble_dg {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-dribbble_dg {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-dribbble_dh {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-dribbble_dh {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_250_di {
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 93.694px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_250_di > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_250_di:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_250_di:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-pinterest_dj {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-pinterest_dj {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-pinterest_dk {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-pinterest_dk {
+		overflow: visible;
+		position: absolute;
+		width: 14.64px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_273_dl {
+		position: absolute;
+		width: 14.729px;
+		height: 14.64px;
+		left: 115.83px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_273_dl > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_273_dl:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_273_dl:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_simple-facebook_dm {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_simple-facebook_dm {
+		overflow: visible;
+		position: absolute;
+		width: 14.729px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_simple-facebook_dn {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_simple-facebook_dn {
+		overflow: visible;
+		position: absolute;
+		width: 14.729px;
+		height: 14.64px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#HOME_do:hover {
+		font-weight: bold;
+	}
+	#HOME_do {
+		left: 417px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 31px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#ABOUT_ME_dq:hover {
+		width: 54px;
+		font-weight: bold;
+	}
+	#ABOUT_ME_dq {
+		left: 486px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#PORTOFOLIO_ds:hover {
+		width: 67px;
+		font-weight: bold;
+	}
+	#PORTOFOLIO_ds {
+		left: 574px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#CONTACT_du:hover {
+		font-weight: bold;
+	}
+	#CONTACT_du {
+		left: 673px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		transition: all .3s ease-out;
+	}
+	#Group_265 {
+		position: absolute;
+		width: 37px;
+		height: 19px;
+		left: 757px;
+		top: 17px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_265 > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_265:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_265:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Group_229_dx {
+		position: absolute;
+		width: 37px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_498_dy {
+		fill: rgba(18,32,35,1);
+	}
+	.Rectangle_498_dy {
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_feather-shopping-cart_dz {
+		position: absolute;
+		width: 9.19px;
+		height: 8.811px;
+		left: 13.569px;
+		top: 5.232px;
+		overflow: visible;
+	}
+	#Path_177_d {
+		fill: rgba(225,255,1,1);
+	}
+	.Path_177_d {
+		overflow: visible;
+		position: absolute;
+		width: 1.612px;
+		height: 1.612px;
+		left: 2.652px;
+		top: 7.199px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_178_d {
+		fill: rgba(225,255,1,1);
+	}
+	.Path_178_d {
+		overflow: visible;
+		position: absolute;
+		width: 1.612px;
+		height: 1.612px;
+		left: 6.82px;
+		top: 7.199px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_179_d {
+		fill: rgba(225,255,1,1);
+	}
+	.Path_179_d {
+		overflow: visible;
+		position: absolute;
+		width: 9.189px;
+		height: 6.538px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_228_d {
+		position: absolute;
+		width: 37px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_498_d {
+		fill: rgba(225,255,1,1);
+	}
+	.Rectangle_498_d {
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_feather-shopping-cart_d {
+		position: absolute;
+		width: 9.19px;
+		height: 8.811px;
+		left: 13.569px;
+		top: 5.232px;
+		overflow: visible;
+	}
+	#Path_177_ea {
+		fill: rgba(18,32,35,1);
+	}
+	.Path_177_ea {
+		overflow: visible;
+		position: absolute;
+		width: 1.612px;
+		height: 1.612px;
+		left: 2.652px;
+		top: 7.199px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_178_ea {
+		fill: rgba(18,32,35,1);
+	}
+	.Path_178_ea {
+		overflow: visible;
+		position: absolute;
+		width: 1.612px;
+		height: 1.612px;
+		left: 6.82px;
+		top: 7.199px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_179_ea {
+		fill: rgba(18,32,35,1);
+	}
+	.Path_179_ea {
+		overflow: visible;
+		position: absolute;
+		width: 9.189px;
+		height: 6.538px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+}
+@media (min-width: 0px) and (max-width: 819px) {
+	.mediaViewInfo {
+		--web-view-name: hp c;
+		--web-view-id: hp_c;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#hp_c {
+		position: absolute;
+		display: block;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(0,0,0,1);
+		overflow: visible;
+		--web-view-name: hp c;
+		--web-view-id: hp_c;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Group_226_eb {
+		position: absolute;
+		width: 280.5px;
+		height: 176.379px;
+		left: 47.5px;
+		top: 59.697px;
+		overflow: visible;
+	}
+	#Path_174_ec {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_174_ec {
+		overflow: visible;
+		position: absolute;
+		width: 280.5px;
+		height: 176.379px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-star-of-life_ed {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-star-of-life_ed {
+		overflow: visible;
+		position: absolute;
+		width: 65.027px;
+		height: 69.363px;
+		left: 201.726px;
+		top: 90.65px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_227 {
+		position: absolute;
+		width: 281px;
+		height: 174.094px;
+		left: 47px;
+		top: 584px;
+		overflow: visible;
+	}
+	#Im_INMCO_thank_you_very_much_f_ef {
+		left: 0px;
+		top: 69.094px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 105px;
+		text-align:  justify;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_275 {
+		position: absolute;
+		width: 249.339px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_247_eh {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 36.147px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_247_eh > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_247_eh:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_247_eh:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_simple-instagram_ei {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_simple-instagram_ei {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_simple-instagram_ej {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_simple-instagram_ej {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_249_ek {
+		position: absolute;
+		width: 31.934px;
+		height: 20.02px;
+		left: 108.819px;
+		top: 1.912px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_249_ek > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_249_ek:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_249_ek:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-behance_el {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-behance_el {
+		overflow: visible;
+		position: absolute;
+		width: 31.934px;
+		height: 20.02px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-behance_em {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-behance_em {
+		overflow: visible;
+		position: absolute;
+		width: 31.934px;
+		height: 20.02px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_246_en {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_246_en > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_246_en:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_246_en:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-whatsapp_eo {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-whatsapp_eo {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-whatsapp_ep {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-whatsapp_ep {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_251_eq {
+		position: absolute;
+		width: 23.905px;
+		height: 16.137px;
+		left: 225.433px;
+		top: 3.825px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_251_eq > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_251_eq:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_251_eq:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_zocial-email_er {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_zocial-email_er {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 16.137px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_zocial-email_es {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_zocial-email_es {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 16.137px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_248_et {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 72.482px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_248_et > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_248_et:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_248_et:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-dribbble_eu {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-dribbble_eu {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-dribbble_ev {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-dribbble_ev {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_250_ew {
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 152.994px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_250_ew > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_250_ew:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_250_ew:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_awesome-pinterest_ex {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_awesome-pinterest_ex {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-pinterest_ey {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-pinterest_ey {
+		overflow: visible;
+		position: absolute;
+		width: 23.905px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_273_ez {
+		position: absolute;
+		width: 24.051px;
+		height: 23.905px;
+		left: 189.141px;
+		top: 0px;
+		overflow: visible;
+	}
+	/* normal state - hide all but normal */
+	#Group_273_ez > :not(:nth-child(2)) {
+	     display: none;
+	}
+
+	/* hover state - hide all but hover */
+	#Group_273_ez:hover > :not(:nth-child(1)) {
+	     display: none;
+	}
+	#Group_273_ez:hover > :nth-child(1) {
+	     display: revert;
+	}
+
+	#Icon_simple-facebook_e {
+		fill: rgba(225,255,1,1);
+	}
+	.Icon_simple-facebook_e {
+		overflow: visible;
+		position: absolute;
+		width: 24.051px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_simple-facebook_fa {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_simple-facebook_fa {
+		overflow: visible;
+		position: absolute;
+		width: 24.051px;
+		height: 23.905px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_123 {
+		fill: transparent;
+		stroke: rgba(255,251,251,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_123 {
+		overflow: visible;
+		position: absolute;
+		width: 281px;
+		height: 1px;
+		left: 47.5px;
+		top: 631.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#dropdown {
+		position: sticky;
+		width: 100%;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		z-index:  1;
+	}
+	#myDropdown {
+		position: absolute;
+		width: 375px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		display:  none;
+	}
+	#drop_menu {
+		position: absolute;
+		width: 375px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_489 {
+		opacity: 0.96;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_489 {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Intersection_7 {
+		opacity: 0.05;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(0,0,0,0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 10;
+		shape-rendering: auto;
+	}
+	.Intersection_7 {
+		overflow: visible;
+		position: absolute;
+		width: 132.507px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_237 {
+		position: absolute;
+		width: 218.036px;
+		height: 19.216px;
+		left: 79px;
+		top: 20px;
+		overflow: visible;
+	}
+	#Group_237_e {
+		position: absolute;
+		width: 218.036px;
+		height: 19.216px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Icon_feather-home {
+		position: absolute;
+		width: 14.757px;
+		height: 16.396px;
+		left: 0px;
+		top: 1.547px;
+		overflow: visible;
+	}
+	#Path_175 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_175 {
+		overflow: visible;
+		position: absolute;
+		width: 16.757px;
+		height: 18.396px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_176 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_176 {
+		overflow: visible;
+		position: absolute;
+		width: 6.919px;
+		height: 10.198px;
+		left: 4.919px;
+		top: 8.198px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_feather-phone {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Icon_feather-phone {
+		overflow: visible;
+		position: absolute;
+		width: 18.306px;
+		height: 18.339px;
+		left: 131.5px;
+		top: 1.273px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_feather-shopping-cart_fe {
+		position: absolute;
+		width: 20.036px;
+		height: 19.216px;
+		left: 198px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_177_ff {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_177_ff {
+		overflow: visible;
+		position: absolute;
+		width: 3.64px;
+		height: 3.64px;
+		left: 5.739px;
+		top: 15.576px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_178_fg {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_178_fg {
+		overflow: visible;
+		position: absolute;
+		width: 3.64px;
+		height: 3.64px;
+		left: 14.757px;
+		top: 15.576px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_179_fh {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_179_fh {
+		overflow: visible;
+		position: absolute;
+		width: 20.036px;
+		height: 14.298px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_feather-user {
+		position: absolute;
+		width: 13.117px;
+		height: 14.757px;
+		left: 66px;
+		top: 2.093px;
+		overflow: visible;
+	}
+	#Path_180 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_180 {
+		overflow: visible;
+		position: absolute;
+		width: 15.117px;
+		height: 6.919px;
+		left: 0px;
+		top: 9.838px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_181 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_181 {
+		overflow: visible;
+		position: absolute;
+		width: 8.559px;
+		height: 8.559px;
+		left: 3.279px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#close_menu {
+		position: absolute;
+		width: 26px;
+		height: 26px;
+		left: 338px;
+		top: 17px;
+		overflow: visible;
+		cursor: pointer;
+		background-color:  transparent;
+	}
+	#Ellipse_27 {
+		fill: rgba(225,255,1,1);
+	}
+	.Ellipse_27 {
+		position: absolute;
+		overflow: visible;
+		width: 26px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_ionic-ios-close-circle {
+		fill: rgba(0,0,0,1);
+	}
+	.Icon_ionic-ios-close-circle {
+		overflow: visible;
+		position: absolute;
+		width: 20.714px;
+		height: 20.714px;
+		left: 2.61px;
+		top: 2.61px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#menu {
+		position: absolute;
+		width: 26px;
+		height: 26px;
+		left: 338px;
+		top: 17px;
+		overflow: visible;
+		cursor: pointer;
+		background-color:  transparent;
+		outline:  none;
+		border:  none;
+	}
+	.dropbtn:focus
+	#Group_224 {
+		position: absolute;
+		width: 26px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_29 {
+		fill: rgba(225,255,1,1);
+	}
+	.Ellipse_29 {
+		position: absolute;
+		overflow: visible;
+		width: 26px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_28 {
+		fill: rgba(0,0,0,1);
+	}
+	.Ellipse_28 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 3px;
+		top: 3px;
+	}
+	#Group_223 {
+		position: absolute;
+		width: 16px;
+		height: 10px;
+		left: 5px;
+		top: 8px;
+		overflow: visible;
+	}
+	#Rectangle_491 {
+		fill: rgba(225,255,1,1);
+	}
+	.Rectangle_491 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 2px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_492 {
+		fill: rgba(225,255,1,1);
+	}
+	.Rectangle_492 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 2px;
+		left: 0px;
+		top: 4px;
+	}
+	#Rectangle_493 {
+		fill: rgba(225,255,1,1);
+	}
+	.Rectangle_493 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 2px;
+		left: 0px;
+		top: 8px;
+	}
+}
