@@ -5050,7 +5050,7 @@ font-style: normal;
 		font-family: Almarai;
 		font-style:  bold;
 		font-size:  12px;
-		color:  rgba(0,0,0,1);
+		color:  rgb(230, 229, 199);
 	}
 	#This_is_a_form_design_j {
 		left: 31px;
@@ -8708,6 +8708,39 @@ window.application = new Application();
 				<button type="submit" id="submit_fe" class="btn-kirim">
 					SUBMIT
 				</button>
+				<script type="text/javascript" id="submit_fe_1">
+					const scriptURL = 'https://script.google.com/macros/s/AKfycbz0atnpzSFhlQGxn3cZHEBTopPlowUSKn6HMyKC-QukM_tqBhemkCeJNgwYj0tzFNktSw/exec'
+	const form = document.forms['FORM-DESAIN']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then((response) => {
+		
+		  const namaDepan1 = form.firstname.value;
+		  const email1 = form.email.value;
+		  const namaDesain = form.namadesain.value;
+		  const konsep1 = form.konsep.value;
+		  const namaBelakang1 = form.lastname.value;
+		  const keperluan1 = form.keperluan.value;
+		  const informasiWajib1 = form.wajib.value;
+		  const informasiTambahan1 = form.tambahan.value;
+		  const targetPasar1 = form.targetmarket.value;
+		  const nomer1 = form.nomer.value;
+		  const tanggal1 = form.tanggal.value;
+		  const linkDesign1 = form.contohlink.value;
+	  
+		  const pesan = `_Berikut adalah form yang sudah saya buat:_%0a*Tanggal :* ${tanggal1}%0a%0a*Nama Depan :* ${namaDepan1}%0a*Nama Belakang :* ${namaBelakang1}%0a*Email :* ${email1}%0a*Nomer :* ${nomer1}%0a*Nama Desain :* ${namaDesain}%0a*Konsep :* ${konsep1}%0a*Keperluan :* ${keperluan1}%0a*Informasi Wajib :* ${informasiWajib1}%0a*Contoh Link :* ${linkDesign1}%0a*Target Pasar  :* ${targetPasar1}%0a%0a*Informasi Tambahan :* ${informasiTambahan1}`;
+
+		window.open(`https://wa.me/62851610289501?text=${pesan}`);
+		location.href = 'contact.html';
+		form.reset();
+		console.log('Success!', response);
+	  })
+	  .catch((error) => console.error('Error!', error.message));
+	 
+	})
+	</script>
 				<button type="reset" id="formreset_ff">
 					RESET
 				</button>
@@ -9267,6 +9300,39 @@ window.application = new Application();
 				<button type="submit" id="submit_jy" class="btn-kirim">
 					SUBMIT
 				</button>
+				<script type="text/javascript" id="submit_jy_1">
+					const scriptURL = 'https://script.google.com/macros/s/AKfycbz0atnpzSFhlQGxn3cZHEBTopPlowUSKn6HMyKC-QukM_tqBhemkCeJNgwYj0tzFNktSw/exec'
+	const form = document.forms['FORM-DESAIN']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then((response) => {
+		
+		  const namaDepan1 = form.firstname.value;
+		  const email1 = form.email.value;
+		  const namaDesain = form.namadesain.value;
+		  const konsep1 = form.konsep.value;
+		  const namaBelakang1 = form.lastname.value;
+		  const keperluan1 = form.keperluan.value;
+		  const informasiWajib1 = form.wajib.value;
+		  const informasiTambahan1 = form.tambahan.value;
+		  const targetPasar1 = form.targetmarket.value;
+		  const nomer1 = form.nomer.value;
+		  const tanggal1 = form.tanggal.value;
+		  const linkDesign1 = form.contohlink.value;
+	  
+		  const pesan = `_Berikut adalah form yang sudah saya buat:_%0a*Tanggal :* ${tanggal1}%0a%0a*Nama Depan :* ${namaDepan1}%0a*Nama Belakang :* ${namaBelakang1}%0a*Email :* ${email1}%0a*Nomer :* ${nomer1}%0a*Nama Desain :* ${namaDesain}%0a*Konsep :* ${konsep1}%0a*Keperluan :* ${keperluan1}%0a*Informasi Wajib :* ${informasiWajib1}%0a*Contoh Link :* ${linkDesign1}%0a*Target Pasar  :* ${targetPasar1}%0a%0a*Informasi Tambahan :* ${informasiTambahan1}`;
+
+		window.open(`https://wa.me/62851610289501?text=${pesan}`);
+		location.href = 'contact.html';
+		form.reset();
+		console.log('Success!', response);
+	  })
+	  .catch((error) => console.error('Error!', error.message));
+	 
+	})
+	</script>
 				<button type="reset" id="formreset_jz">
 					RESET
 				</button>

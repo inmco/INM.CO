@@ -2766,7 +2766,7 @@ font-style: normal;
 		font-family: Almarai;
 		font-style:  bold;
 		font-size:  12px;
-		color:  rgba(0,0,0,1);
+		color:  rgb(230, 229, 199);
 	}
 	#This_is_a_logo_form_fp {
 		left: 100px;
@@ -5266,7 +5266,7 @@ font-style: normal;
 		font-family: Almarai;
 		font-style:  bold;
 		font-size:  12px;
-		color:  rgba(0,0,0,1);
+		color:  rgb(230, 229, 199);
 	}
 	#This_is_a_logo_form_kd {
 		left: 31px;
@@ -8919,10 +8919,8 @@ window.application = new Application();
 				<input type="telp" name="nomer" placeholder="Insert your phone"  required id="nomer_fd">
 				</input>
 				<input type="text" name="namalogo" placeholder="Insert your logo name"  required id="nama_logo_fe">
-					Insert your logo name
 				</input>
 				<input type="text" name="tagline" placeholder="Tagline logo" id="tagline_ff">
-					Tagline logo
 				</input>
 				<textarea type="text" name="konsep" placeholder="Insert your concept"  required id="konsep_fg">
 				</textarea>
@@ -8943,6 +8941,38 @@ window.application = new Application();
 				<button type="submit" id="submit_fn" class="btn-kirim">
 					SUBMIT
 				</button>
+				<script type="text/javascript" id="submit_fn_1">
+					const scriptURL = 'https://script.google.com/macros/s/AKfycbw40TCXSJ6y-4nl1GI1eMw3CcOEi8BjIQlsGqycFXmHlhFzKcKZX_ka2_RmDm47gDpL/exec'
+	const form = document.forms['FORM-LOGO']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then((response) => {
+			const namaDepan = form.firstname.value;
+			const namaBelakang = form.lastname.value;
+			const email = form.email.value;
+			const nomer = form.nomer.value;
+			const namaLogo = form.namalogo.value;
+			const tagline = form.tagline.value;
+			const konsep = form.konsep.value;
+			const informasiWajib = form.wajib.value;
+			const targetPasar = form.targetmarket.value;
+			const linkLogo = form.contohlink.value;
+			const pengaplikasian = form.pengaplikasian.value;
+			const informasiTambahan = form.tambahan.value;
+			const tanggal = form.tanggal.value;
+			const pesan = `_Berikut adalah form yang sudah saya buat:_%0a*Tanggal :* ${tanggal}%0a%0a*Nama Depan :* ${namaDepan}%0a*Nama Belakang :* ${namaBelakang}%0a*Email :* ${email}%0a*Nomer :* ${nomer}%0a*Nama Logo :* ${namaLogo}%0a*Tagline :* ${tagline}%0a*Konsep :* ${konsep}%0a*Informasi Wajib :* ${informasiWajib}%0a*Link Logo :* ${linkLogo}%0a*Pengaplikasian :* ${pengaplikasian}%0a%0a*Informasi Tambahan :* ${informasiTambahan}`;
+
+		window.open(`https://wa.me/62851610289501?text=${pesan}`);
+		location.href = 'contact.html';
+		form.reset();
+		console.log('Success!', response);
+	  })
+	  .catch((error) => console.error('Error!', error.message));
+	 
+	})
+	</script>
 				<button type="reset" id="formreset_fo">
 					RESET
 				</button>
@@ -9515,6 +9545,38 @@ window.application = new Application();
 				<button type="submit" id="submit_kb" class="btn-kirim">
 					SUBMIT
 				</button>
+				<script type="text/javascript" id="submit_kb_1">
+					const scriptURL = 'https://script.google.com/macros/s/AKfycbw40TCXSJ6y-4nl1GI1eMw3CcOEi8BjIQlsGqycFXmHlhFzKcKZX_ka2_RmDm47gDpL/exec'
+	const form = document.forms['FORM-LOGO']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then((response) => {
+			const namaDepan = form.firstname.value;
+			const namaBelakang = form.lastname.value;
+			const email = form.email.value;
+			const nomer = form.nomer.value;
+			const namaLogo = form.namalogo.value;
+			const tagline = form.tagline.value;
+			const konsep = form.konsep.value;
+			const informasiWajib = form.wajib.value;
+			const targetPasar = form.targetmarket.value;
+			const linkLogo = form.contohlink.value;
+			const pengaplikasian = form.pengaplikasian.value;
+			const informasiTambahan = form.tambahan.value;
+			const tanggal = form.tanggal.value;
+			const pesan = `_Berikut adalah form yang sudah saya buat:_%0a*Tanggal :* ${tanggal}%0a%0a*Nama Depan :* ${namaDepan}%0a*Nama Belakang :* ${namaBelakang}%0a*Email :* ${email}%0a*Nomer :* ${nomer}%0a*Nama Logo :* ${namaLogo}%0a*Tagline :* ${tagline}%0a*Konsep :* ${konsep}%0a*Informasi Wajib :* ${informasiWajib}%0a*Link Logo :* ${linkLogo}%0a*Pengaplikasian :* ${pengaplikasian}%0a%0a*Informasi Tambahan :* ${informasiTambahan}`;
+
+		window.open(`https://wa.me/62851610289501?text=${pesan}`);
+		location.href = 'contact.html';
+		form.reset();
+		console.log('Success!', response);
+	  })
+	  .catch((error) => console.error('Error!', error.message));
+	 
+	})
+	</script>
 				<button type="reset" id="formreset_kc">
 					RESET
 				</button>
